@@ -1,0 +1,8 @@
+@import "../utilities/color.css";
+@import "../utilities/typography.css";
+
+body {
+  font-family: var(--font-sans-serif);
+  color: var(--text-color-neutral-primary);
+  font-size: var(--text-body);
+}
