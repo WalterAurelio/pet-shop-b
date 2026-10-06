@@ -1,11 +1,12 @@
 type ClientCardProps = {
   image?: string;
   name?: string;
+  className?: string;
 };
 
-function ClientCard({ image, name = "Nombre" }: ClientCardProps) {
+function ClientCard({ image, name = "Nombre", className }: ClientCardProps) {
   return (
-    <div>
+    <div className={className}>
       {image ? (
         <img src={image} alt={`Foto de ${name}`} className="aspect-3/4 h-[266.667px] rounded-border-l object-cover object-center lg:h-100" />
       ) : (
