@@ -19,7 +19,7 @@ function ServiceCard({ icon: Icon = SprayBottle, title = "Baño", description, i
 
       <div className="flex flex-col items-start gap-l self-stretch">
         <div className="flex items-center gap-s">
-          <Icon className="size-6" />
+          <Icon className="size-6 text-(--salvia-green)" />
           <h4 className="h6 text-neutral-secondary">{title}</h4>
         </div>
         <p className="body-strong text-neutral-tertiary">
