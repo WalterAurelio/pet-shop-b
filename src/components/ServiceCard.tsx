@@ -12,9 +12,9 @@ function ServiceCard({ icon: Icon = SprayBottle, title = "Baño", description, i
   return (
     <div className="flex flex-col items-start gap-l self-stretch rounded-border-l border border-neutral-inverse-primary bg-neutral-primary p-2xl shadow-[-2px_2px_4px_0_rgba(0,0,0,0.20)] lg:flex-row lg:gap-13">
       {image ? (
-        <img className="aspect-3/4 h-[418.667px] rounded-full object-cover object-center lg:order-1" src={image} alt="Service" />
+        <img className="aspect-3/4 h-[418.667px] rounded-full object-cover object-center lg:order-1 lg:h-50" src={image} alt="Service" />
       ) : (
-        <div className="flex aspect-3/4 h-[418.667px] items-center justify-center rounded-full bg-neutral-disabled lg:order-1">No hay imagen</div>
+        <div className="flex aspect-3/4 h-[418.667px] items-center justify-center rounded-full bg-neutral-disabled lg:order-1 lg:h-50">No hay imagen</div>
       )}
 
       <div className="flex flex-col items-start gap-l self-stretch">
