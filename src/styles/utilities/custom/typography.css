@@ -23,12 +23,13 @@
 @utility h5 {
   font-size: var(--text-h5);
   font-weight: bold;
+  @apply leading-7.25;
 }
 
 @utility h6 {
   font-size: var(--text-h6);
   font-weight: bold;
-  /* @apply leading-5.75; */
+  @apply leading-6;
 }
 
 @utility body-default {
@@ -38,7 +39,7 @@
 
 @utility body-strong {
   font-size: var(--text-body);
-  font-weight: 600;
+  font-weight: 500;
   line-height: 22px;
 }
 
