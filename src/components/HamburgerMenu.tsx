@@ -3,7 +3,7 @@ import X from "../assets/icon/X.svg?react";
 
 function HamburgerMenu({ className, handleClick }: { className?: string; handleClick?: () => void }) {
   return (
-    <div className={`flex h-screen w-screen flex-col bg-neutral-primary p-l ${className}`}>
+    <div className={`flex h-screen w-full flex-col bg-neutral-primary p-l ${className}`}>
       <PetShopLogo className="absolute top-2.75 h-8 w-auto rotate-45 text-(--salvia-green)" />
       <button className="absolute top-2.75 right-4 cursor-pointer" onClick={handleClick}>
         <X className="size-8 text-(--salvia-green)" />
@@ -25,7 +25,14 @@ function HamburgerMenu({ className, handleClick }: { className?: string; handleC
           <a href="#">Lorem</a>
         </div>
 
-        <button className="flex cursor-pointer items-center justify-center self-stretch rounded-full bg-(--deep-green) p-xl h6 text-neutral-inverse-primary">Contactar</button>
+        <a
+          href="https://wa.me/5491123456789"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="flex cursor-pointer items-center justify-center self-stretch rounded-full bg-(--deep-green) p-xl h6 text-neutral-inverse-primary"
+        >
+          Contactar por WhatsApp
+        </a>
       </div>
     </div>
   );
