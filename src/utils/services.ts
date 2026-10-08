@@ -2,10 +2,10 @@ import HairDryer from "../assets/icon/HairDryer.svg?react";
 import PawPrint from "../assets/icon/PawPrint.svg?react";
 import Scissors from "../assets/icon/Scissors.svg?react";
 import SprayBottle from "../assets/icon/SprayBottle.svg?react";
-import ServicioBaño from "../assets/img/ServicioBaño.jpg";
-import ServicioCorte from "../assets/img/ServicioCorte.jpg";
-import ServicioSecado from "../assets/img/ServicioSecado.jpg";
-import ServicioUñas from "../assets/img/ServicioUñas.jpg";
+import ServicioBaño from "../assets/img/webp/ServicioBaño.webp";
+import ServicioCorte from "../assets/img/webp/ServicioCorte.webp";
+import ServicioSecado from "../assets/img/webp/ServicioSecado.webp";
+import ServicioUñas from "../assets/img/webp/ServicioUñas.webp";
 
 export const services = [
   {
