@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import ClientCard from "../components/ClientCard";
-import pimg from "../assets/img/Image_5xwnso5xwnso5xwn.jpg";
+import pimg from "../assets/img/webp/Cliente1.webp";
 
 const meta = {
   title: "Components/ClientCard",
