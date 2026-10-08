@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
+    "convert:webp": "node --experimental-strip-types src/utils/convertToWebp.ts",
     "lint": "eslint .",
     "preview": "vite preview",
     "prepare": "husky",
@@ -14,7 +15,9 @@
     "build-storybook": "storybook build"
   },
   "dependencies": {
+    "@gsap/react": "^2.1.2",
     "@tailwindcss/vite": "^4.3.3",
+    "gsap": "^3.15.0",
     "react": "^19.2.8",
     "react-dom": "^19.2.8",
     "tailwindcss": "^4.3.3"
@@ -46,6 +49,7 @@
     "playwright": "latest",
     "prettier": "^3.9.9",
     "prettier-plugin-tailwindcss": "^0.8.1",
+    "sharp": "^0.35.5",
     "storybook": "^10.6.1",
     "typescript": "~6.0.2",
     "typescript-eslint": "^8.69.0",
