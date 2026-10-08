@@ -1,6 +1,6 @@
 import type { Meta, StoryObj } from "@storybook/react-vite";
 import ServiceCard from "../components/ServiceCard";
-import pimg from "../assets/img/Image_vgs1srvgs1srvgs1.jpg";
+import pimg from "../assets/img/webp/ServicioCorte.webp";
 import SprayBottle from "../assets/icon/SprayBottle.svg?react";
 import HairDryer from "../assets/icon/HairDryer.svg?react";
 import PawPrint from "../assets/icon/PawPrint.svg?react";
